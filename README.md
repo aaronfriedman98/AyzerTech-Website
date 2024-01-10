@@ -19,10 +19,6 @@ The Ayzertech website provides a visually captivating and user-friendly platform
 
 Explore the Ayzertech website at [https://www.ayzertech.com](https://www.ayzertech.com) and connect with our team through the provided contact form.
 
-## Getting Started
-
-To explore the Ayzertech website, simply visit https://www.ayzertech.com.
-
 ## Experience the Ease of Insurance Claim Management
 
 Discover the innovative and client-centric approach of Ayzertech. We invite you to explore the website and experience firsthand how we simplify the insurance claim management process for our clients.
