@@ -21,13 +21,11 @@ Explore the Ayzertech website at [https://www.ayzertech.com](https://www.ayzerte
 
 ## Getting Started
 
-To contribute or provide feedback, fork this repository and submit pull requests.
+To explore the Ayzertech website, simply visit https://www.ayzertech.com.
 
 ## Experience the Ease of Insurance Claim Management
 
-Discover Ayzertech's innovative approach to simplify insurance claim management for our clients.
+Discover the innovative and client-centric approach of Ayzertech. We invite you to explore the website and experience firsthand how we simplify the insurance claim management process for our clients.
 
 Thank you for visiting the Ayzertech GitHub repository!
-
-*Note: This README serves as a general guide. Additional documentation for development, deployment, and contribution guidelines can be found within the repository.*
 
