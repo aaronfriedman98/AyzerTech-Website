@@ -414,16 +414,32 @@
 							<input type="hidden" name="_template" value="table">
 							<div class="row gtr-uniform gtr-50">
 								<div class="col-6 col-12-xsmall">
-									<input type="text" name="name" id="name" value="" placeholder="Name" requried/>
+									<input type="text" name="name" id="name" value="" placeholder="Name" required/>
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<input type="email" name="email" id="email" value="" placeholder="Email Address" required/>
 								</div>
 								<div class="col-6 col-12-xsmall">
 									<input type="text" name="city" id="city" value="" placeholder="City" required/>
 								</div>
 								<div class="col-6 col-12-xsmall">
+									<input type="text" name="state" id="state" value="" placeholder="State" required/>
+								</div>
+								<div class="col-6 col-12-xsmall">
 									<input type="text" name="phone" id="phone" value="" placeholder="Phone" required/>
 								</div>
 								<div class="col-6 col-12-xsmall">
-									<input type="email" name="email" id="email" value="" placeholder="Email Address" required/>
+									<select name="how_hear" id="how_hear">
+										<option value="" disabled selected>How did you hear about us?</option>
+										<option value="Ami Magazine">Ami Magazine</option>
+										<option value="Mishpacha Magazine">Mishpacha Magazine</option>
+										<option value="The Real Deal">The Real Deal</option>
+										<option value="A Friend">A Friend</option>
+										<option value="Your Insurance Broker">Your Insurance Broker</option>
+										<option value="Jewish News Site">Jewish News Site</option>
+										<option value="Google Search">Google Search</option>
+										<option value="Other">Other</option>
+									</select>
 								</div>
 								<div class="col-12">
 									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
@@ -436,6 +452,7 @@
 								</div>
 							</div>
 						</form>
+						
 					</section>
 				</div>
 			</section>
