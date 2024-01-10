@@ -1,0 +1,233 @@
+#four {
+    /* max-height: 310px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex div {
+    /* border: solid white 3px; */
+    /* width: 550px; */
+}
+
+/* table */
+.paragraph {
+    width: 40%;
+}
+.table-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* footer icons */
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+/* fix major icons layout */
+.major-icons.major {
+    border: solid black 4px;
+    width: 30% !important;
+    flex-wrap: wrap;
+}
+.major-icons {
+    /* flex-wrap: wrap; */
+    width: 80%;
+}
+#contact {
+    text-align: center;
+}
+#claims {
+    text-align: center;
+}
+
+/* take away underline of phone numbers */
+.phone {
+    border: none;
+}
+/* fix the message and claim section */
+@media screen and (max-width: 1200px) {
+
+    .flex div {
+        width: 40%;
+    }
+
+}
+@media screen and (max-width: 700px) {
+
+    .flex div {
+        width: 100% !important;
+    }
+    .flex .container{
+        justify-content: center;
+    }
+    .flex div:nth-child(2){
+        order: 1;
+        width: 70%;
+    }
+    .flex div:nth-child(1){
+        order: 2;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .flex div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    /* alternate paragraph */
+    .paragraph {
+        display: none;
+    }
+    .table-wrapper{
+        display: inline;
+    }
+    .mp {
+        /* display: block !important; */
+        /* position: absolute; */
+        /* max-height: 0; */
+        /* overflow: hidden; */
+        transition: .2s !important;
+        margin-right: 25px;
+    }
+    .space{
+        transition: .5s;
+    }
+    .mobileToggle{
+        max-height: 100% !important;
+        /* position: absolute; */
+        /* position: relative; */
+        /* overflow: visible !important; */
+    }
+    .addSpace1{
+        margin-top: 688px;
+    }
+    .addSpace2{
+        margin-top: 340px;
+    }
+    .addSpace3{
+        margin-top: 230px;
+    }
+    .addSpace4{
+        margin-top: 285px;
+    }
+    .addSpace5{
+        margin-top: 315px;
+    }
+    .addSpace6{
+        margin-top: 280px;
+    }
+    .addSpace7{
+        margin-top: 655px;
+    }
+    .addSpace8{
+        margin-top: 315px;
+    }
+
+}
+
+
+/* process popup */
+
+.mp {
+    /* display: none; */
+    /* position: absolute; */
+    /* display: block; */
+    /* position: relative; */
+    position:absolute;
+    max-height: 0;
+    overflow: hidden;
+}
+.p {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease-in-out, opacity .35s ease-in-out;
+    position: absolute;
+    margin-right: 70px;
+    opacity: 0;
+}
+.appear {
+    max-height: 100%;
+    opacity: 1;
+}
+
+/* .fa-circle-plus, .fa-circle-minus {
+    cursor: pointer;
+    transition: .2s;
+}
+.fa-circle-plus:hover, .fa-circle-minus:hover {
+    color: rgba(128, 128, 128, 0.799);
+} */
+.fa-circle-plus {
+    transition: 0.4s;
+}
+.spin {
+    /* transform: rotate(136deg); */
+    /* margin-right: 8px; */
+    color: rgba(179, 56, 56, 0.847);
+    transform: rotate(-136deg);
+}
+.tr{
+    transition: .3s;
+    cursor: pointer;
+}
+.tr:hover {
+    background-color: rgba(180, 176, 176, 0.358);
+}
+
+
+/* table */
+.paragraph {
+    width: 40%;
+}
+.table-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* fix icons */
+@media screen and (max-width: 736px) {
+    .hex-icons{
+        padding-top: 16px !important;
+    }
+}
+/* fix icon layout on mobile */
+@media screen and (max-width: 980px) {
+    .hex-icons:nth-child(1){
+        order: 1 !important;
+    }
+    .hex-icons:nth-child(2){
+        order: 2 !important;
+    }
+    .hex-icons:nth-child(3){
+        order: 3 !important;
+    }
+    .hex-icons:nth-child(4){
+        order: 4 !important;
+    }
+}
+
+
+/* major icons */
+
+.major-icons a {
+    border: none;
+    /* cursor: pointer; */
+}
+.major-icons li .icon{
+    cursor: pointer;
+}
+

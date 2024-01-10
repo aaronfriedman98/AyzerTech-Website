@@ -1,0 +1,86 @@
+#four .hamburger {
+    /* position: absolute; */
+    position: fixed;
+    /* display: block; */
+    width: 35px !important;
+    cursor: pointer !important;
+    height: 35px !important;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none !important;
+    right: 40px;
+    top: 20px;
+    z-index: 100;
+}
+
+.hamburger .bar, .hamburger:after, .hamburger:before {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 5px;
+    /* background-color: #707b7b; */
+    margin: 6px 0px;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+
+.navigation a {
+    border-bottom: white dotted .1px;
+}
+
+
+.hamburger.is-active:before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+    background-color: white;
+}
+.hamburger.is-active:after {
+    transform: rotate(45deg) translate(-9px,-8px);
+    background-color: white;
+}
+
+
+/* contact us section */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* border: solid black 3px; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex ul {
+    margin-top: 10px;
+}
+
+#four {
+    text-align: center;
+}
+
+
+
+.mini-logo {
+    transform: scale(.3);
+    transform: scale(.7);
+    margin: 0 !important;
+    /* position: absolute; */
+    /* top: 70px; */
+    /* left: -30px; */
+}
+.logo {
+    /* border: solid black 3px; */
+}
+
+.flex2 {
+    display: flex;
+    justify-content: left;
+    /* gap: -500px; */
+}
+
+
+@media screen and (max-width: 1000px) {
+    .mini-logo {
+        display: none;
+    }
+}
