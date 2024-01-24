@@ -27,6 +27,6 @@
 		});
 
 	// Scrolly.
-		$('.scrolly').scrolly();
+		// $('.scrolly').scrolly();
 
 })(jQuery);

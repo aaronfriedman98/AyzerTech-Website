@@ -13,19 +13,19 @@ const mediaQuery = window.matchMedia("(min-width: 981px)");
 
 // Function to apply the class when the media query matches
 function applyClass() {
-  if (mediaQuery.matches) {
-    paragraphs[0].classList.add('appear');
-    plusBtn[0].classList.add('spin');
-  } else {
-    // Remove the classes if the media query no longer matches
-    paragraphs[0].classList.remove('appear');
-    plusBtn[0].classList.remove('spin');
+    if (mediaQuery.matches && paragraphs.length > 0 && plusBtn.length > 0) {
+      paragraphs[0].classList.add('appear');
+      plusBtn[0].classList.add('spin');
+    } else {
+      // Remove the classes if the media query no longer matches
+      paragraphs[0].classList.remove('appear');
+      plusBtn[0].classList.remove('spin');
+    }
   }
-}
-
-// Initial application of the class based on the media query
-applyClass();
-
+  
+  // Initial application of the class based on the media query
+  applyClass();
+  
 // Add an event listener to reapply the class when the media query state changes
 mediaQuery.addListener(applyClass);
 
